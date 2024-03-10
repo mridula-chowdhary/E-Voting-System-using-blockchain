@@ -29,7 +29,7 @@ function Login() {
                         type="text" 
                         value={username} 
                         onChange={handleUsernameChange} 
-                        className="mt-1 p-2 block w-full rounded-md border-gray-300 focus:ring-indigo-500 focus:border-indigo-500" 
+                        className="mt-1 p-2 block w-full rounded-md border border-gray-400 focus:ring-indigo-500 focus:border-indigo-500" 
                     />
                 </div>
                 <div className="mb-4">
@@ -38,13 +38,13 @@ function Login() {
                         type="password" 
                         value={password} 
                         onChange={handlePasswordChange} 
-                        className="mt-1 p-2 block w-full rounded-md border-gray-300 focus:ring-indigo-500 focus:border-indigo-500" 
+                        className="mt-1 p-2 block w-full rounded-md border border-gray-400 focus:ring-indigo-500 focus:border-indigo-500" 
                     />
                 </div>
                 <button 
                     type="button" 
                     onClick={handleLogin} 
-                    className="bg-indigo-500 text-white py-2 px-4 rounded-md hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100"
+                    className="bg-black text-white py-2 px-4 rounded-md hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100"
                 >
                     Login
                 </button>
