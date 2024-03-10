@@ -1,6 +1,6 @@
 import React from 'react'
 
-export function FooterThree() {
+export function Footer() {
   return (
     <section className="relative overflow-hidden bg-[#082D4D] py-8">
       <div className="container relative z-10 mx-auto px-2">

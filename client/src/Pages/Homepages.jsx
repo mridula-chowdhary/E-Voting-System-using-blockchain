@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import { CtaOne } from '../Components/Banner/Banner'
 import { Card } from '../Components/Card'
-import { FooterThree } from '../Components/Footer'
+import { Footer } from '../Components/Footer'
 
 function Homepages() {
   return (
@@ -10,7 +10,7 @@ function Homepages() {
       <Navbar/>
       <CtaOne/>
       <Card/>
-     <FooterThree/>
+     <Footer/>
     </div>
   )
 }
