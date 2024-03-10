@@ -1,12 +1,12 @@
 import React from 'react'
 
-export function Footer() {
+ function Footer() {
   return (
     <section className="relative overflow-hidden bg-[#082D4D] py-8">
       <div className="container relative z-10 mx-auto px-2">
         <div className="-m-8 flex flex-wrap items-center justify-between">
           <div className="w-auto p-4">
-            <a href="#">
+            {/* <a href="#">
               <div className="inline-flex items-center">
                 <svg
                   width="40"
@@ -22,7 +22,7 @@ export function Footer() {
                 </svg>
                 <span className="ml-4 text-lg font-bold">DevUI</span>
               </div>
-            </a>
+            </a> */}
           </div>
           <div className="w-auto p-4">
             <ul className="-m-5 flex flex-wrap items-center">
@@ -111,3 +111,4 @@ export function Footer() {
     </section>
   )
 }
+export default Footer
