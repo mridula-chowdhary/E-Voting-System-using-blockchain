@@ -26,7 +26,7 @@ const menuItems = [
   }
 
   return (
-    <div className="relative w-full bg-white">
+    <div className="relative w-full bg-white sticky">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <div className="inline-flex items-center space-x-2">
           <span>
@@ -43,7 +43,7 @@ const menuItems = [
               />
             </svg>
           </span>
-          <span className="font-bold">DevUI</span>
+          <span className="font-bold">E-Voting</span>
         </div>
         <div className="hidden grow items-start lg:flex">
           <ul className="ml-12 inline-flex space-x-8">
